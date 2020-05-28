@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+.container {
+    display: flex;
+}
+
+.lateral {
+    width: 40%;
+    height: 100vh;
+    color: rgba(255, 255, 255, 0.5);
+
+    background: url(./images/imagem-lateral.jpg);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.principal {
+    width: 60%;
+    height: 100vh;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navegacao {
+    width: 100%;
+    list-style: none;
+    display: flex;
+}
+
+.navegacao li {
+    width: 100%;
+}
+
+.navegacao a {
+    width: 100%;
+    padding: 15px;
+    color: #333;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navegacao a:hover {
+    color: #fff;
+    background-color: goldenrod;
+}
