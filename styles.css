@@ -1,12 +1,43 @@
+
 * {
     margin: 0;
     padding: 0;
     outline: 0;
+    letter-spacing: 1px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: #f6f6f6;
+    background-color: #fcfcfc;
+}
+
+section {
+    margin: 15px 0px 25px;
+}
+
+button {
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ddd;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+input {
+    padding: 10px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    padding: 10px;
+    height: 100px;
+    margin-bottom: 15px;
 }
 
 .container {
@@ -14,7 +45,7 @@ body {
 }
 
 .lateral {
-    width: 40%;
+    width: 35%;
     height: 100vh;
     color: rgba(255, 255, 255, 0.5);
 
@@ -27,31 +58,78 @@ body {
 }
 
 .principal {
-    width: 60%;
+    width: 65%;
     height: 100vh;
-    color: rgba(255, 255, 255, 0.5);
+    color: #333;
+    overflow-y: auto;
 }
 
 .navegacao {
     width: 100%;
     list-style: none;
     display: flex;
-}
-
-.navegacao li {
-    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .navegacao a {
-    width: 100%;
-    padding: 15px;
     color: #333;
+    padding: 15px;
     display: block;
-    text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .navegacao a:hover {
     color: #fff;
     background-color: goldenrod;
+}
+
+.conteudo {
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.cabecalho {
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.cabecalho span {
+    font-size: 30px;
+    color: goldenrod;
+}
+
+.titulo {
+    line-height: 30px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    border-left: 10px solid goldenrod;
+}
+
+.texto {
+    padding: 10px 20px 30px;
+}
+
+.local {
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.detalhes-local {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    padding: 0px 20px;
+    flex-direction: column;
 }

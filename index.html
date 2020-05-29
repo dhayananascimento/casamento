@@ -13,7 +13,7 @@
     <title>Casamento</title>
 </head>
 <body>
-    <main class="container">
+    <div class="container">
         <div class="lateral">
             <p>Photo by Violeta Avram on Unsplash</p>
         </div>
@@ -21,15 +21,58 @@
             <header>
                 <nav>
                     <ul class="navegacao">
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">A festa</a></li>
-                        <li><a href="#">Lista de presentes</a></li>
-                        <li><a href="#">Presença</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#presenca">Presença</a></li>
+                        <li><a href="#presentes">Lista de presentes</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
                 </nav>
             </header>
+            <main class="conteudo">
+                <div class="cabecalho">
+                    <h1>João <span>&hearts;</span> Maria</h1>
+                    <p>Faltam x dias</p>
+                </div>
+                
+                <section id="sobre">
+                    <h3 class="titulo">Sobre</h3>
+                    <p class="texto">É com muita alegria que convidamos você para a celebração da nossa união. O casamento será realizado em um sítio no fim da tarde, portanto,  aconselhamos que o traje dos convidados seja o esporte fino.</p>
+                    <div class="local">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64343350.15082779!2d-64.54700936468234!3d-10.163869131444116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9c59c7ebcc28cf%3A0x295a1506f2293e63!2sBrasil!5e0!3m2!1spt-BR!2sbr!4v1590693337122!5m2!1spt-BR!2sbr" frameborder="0"  style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="400" height="300"></iframe>
+                        
+                        <div class="detalhes-local">
+                            <p><strong>Local:</strong> Sítio xxxxxx</p>
+                            <p><strong>Data:</strong> xx de janeiro de 2021</p>
+                            <p><strong>Horário:</strong> 16:00 (Horário de Brasília)</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="presenca">
+                    <h3 class="titulo">Presença</h3>
+                </section>
+
+                <section id="presentes">
+                    <h3 class="titulo">Lista de presentes</h3>
+                </section>
+
+                <section id="contato">
+                    <h3 class="titulo">Contato</h3>
+                    <p class="texto">Entre em contato com a gente caso tenha alguma dúvida ou queira deixar uma mensagem para o casal.</p>
+                    <form class="formulario">
+                        <label>Nome</label>
+                        <input type="text" placeholder="Nome" required >
+                        <label>Telefone</label>
+                        <input type="tel" placeholder="(xx) xxxxx-xxxx" required >
+                        <label>Mensagem</label>
+                        <textarea type="textearea" placeholder="Deixe sua mensagem aqui..." required ></textarea> 
+                        <button>Enviar</button>
+                    </form>
+                </section>        
+            </main>
+            <footer>
+            </footer>
         </div>
-    </main>   
+    </div>   
 </body>
 </html>
