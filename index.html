@@ -57,7 +57,7 @@
                 <section id="presenca">
                     <h3 class="titulo">Presença</h3>
                     <p class="texto">Para melhor controle e organização, precisamos que você nos informe se poderá ou não comparecer a festa. Para isso, basta clicar no botão abaixo.</p>
-                    <button class="botao" onclick="document.getElementById('modal-container').style.display='block';">Informar presença</button>
+                    <button id="abrir-modal" class="botao">Informar presença</button>
                 </section>
 
                 <section id="contato">
@@ -68,7 +68,7 @@
                         <input id="nome" type="text" placeholder="Nome" required >
                         
                         <label for="telefone">Telefone</label>
-                        <input id="telefone" type="tel" placeholder="(xx) xxxxx-xxxx" required >
+                        <input id="telefone" type="text" placeholder="(xx) xxxxx-xxxx" required >
                         
                         <label for="msg-contato">Mensagem</label>
                         <textarea id="msg-contato" type="textearea" placeholder="Deixe sua mensagem aqui..." required ></textarea> 
@@ -79,7 +79,7 @@
                 
                 <div id="modal-container" class="modal-container">
                     <div class="modal">
-                        <button class="fechar-modal botao-vermelho" onclick="document.getElementById('modal-container').style.display='none';">X</button>
+                        <button id="fechar-modal" class="fechar-modal botao-vermelho">X</button>
                         
                         <h3 class="titulo-modal">Confirmação de presença</h3>
 
@@ -124,6 +124,7 @@
             <footer>
             </footer>
         </div>
-    </div>   
+    </div> 
+    <script src="script.js"></script>  
 </body>
 </html>
