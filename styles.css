@@ -76,7 +76,7 @@ a {
     width: 35%;
     height: 100vh;
     color: rgba(255, 255, 255, 0.2);
-    background: url(./images/imagem-lateral.jpg);
+    background: url(./imagens/imagem-lateral.jpg);
     background-size: cover;
     background-position: center;
 
@@ -232,7 +232,7 @@ a {
     }
 }
 
-@media (max-width: 590px) {
+@media screen and  (max-width: 590px) {
     .botoes-confirmacao {
         display: flex;
         align-items: center;
@@ -241,10 +241,10 @@ a {
 }
 
 
-@media (max-width: 420px) {
+@media screen and  (max-width: 420px) {
     iframe {
-        width: 280px;
-        height: 280px;
+        width: 100%;
+        height: auto;
     
     }
     .local {
