@@ -11,6 +11,11 @@ Projeto com a finalidade de treinar habilidades relativa as linguagens HTML, CSS
             <img src="./imagens/img-02.png" alt= "imagem 2">
         </td>
     </tr>
+    <tr>
+        <td>
+            <img src="./imagens/cassamento.gif" alt= "gif">
+        </td>
+    </tr>
 </table>
 
 ## Linguagens
@@ -21,6 +26,6 @@ Projeto com a finalidade de treinar habilidades relativa as linguagens HTML, CSS
 ## Executar
 **Para executar este pojeto na sua máquina, siga as intruções:**
 * execute o seguinte comando no seu terminal: 
->> $ git clone https://github.com/dhayananascimento/casamento.git
+``` $ git clone https://github.com/dhayananascimento/casamento.git ```
 * abra a pasta que será  criada
 * abra o arquivo "index.html" com o navegador de sua preferência

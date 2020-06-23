@@ -63,13 +63,13 @@
                     <h3 class="titulo">Contato</h3>
                     <p class="texto">Entre em contato com a gente caso tenha alguma dúvida.</p>
                     <form>
-                        <label for="nome">Nome</label>
+                        <label for="nome">Nome:</label>
                         <input id="nome" type="text" placeholder="Nome" required >
                         
-                        <label for="telefone">Telefone</label>
+                        <label for="telefone">Telefone:</label>
                         <input id="telefone" type="text" placeholder="(xx) xxxxx-xxxx" required >
                         
-                        <label for="msg-contato">Mensagem</label>
+                        <label for="msg-contato">Mensagem:</label>
                         <textarea id="msg-contato" type="textearea" placeholder="Deixe sua mensagem aqui..." required ></textarea> 
                         
                         <button class="botao">Enviar</button>
@@ -85,6 +85,9 @@
                         <form>
                             <label>Nome: </label>
                             <input type="text" placeholder="Nome" required >
+
+                            <label>Telefone para contato: </label>
+                            <input id="telefone-modal" type="text" placeholder="(xx) xxxxx-xxxx" required >
                             
                             <div class="botoes-radio ">
                                 <input type="radio" name="idade" value="Adulto" checked>
@@ -98,14 +101,12 @@
                             </div>
 
                             <div class="botoes-radio ">
-                                
                                 <p>Voce come alimentos de origem animal?</p>
                                 <input type="radio" name="alimentacao" value="sim" checked>
                                 <label>sim</label>
 
                                 <input type="radio" name="alimentacao" value="nao">
-                                <label>Não</label>
-                                
+                                <label>Não</label>    
                             </div>
                             
                             <label>Deixe uma mensagem para os noivos:</label>
