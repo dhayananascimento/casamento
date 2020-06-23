@@ -11,8 +11,13 @@ Projeto com a finalidade de treinar habilidades relativa as linguagens HTML, CSS
             <img src="./imagens/img-02.png" alt = "imagem 2">
         </td>
     </tr>
+    <tr>
+        <td colspan="2">
+            <img src="./imagens/casamento.gif" alt = "gif">
+        </td>
+    </tr>
 </table>
-<img src="./imagens/casamento.gif" alt = "gif">
+
 
 ## Linguagens
 * CSS
